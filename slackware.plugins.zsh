@@ -20,5 +20,5 @@ fi
 if (( $+commands[sboui] )); then
     alias sync='sudo sboui -s'
     alias supgrade='sudo sboui -u'
-    alias slistupgrade='sudo sboui -p'
+    alias slupgrade='sudo sboui -p'
 fi
