@@ -22,3 +22,9 @@ if (( $+commands[sboui] )); then
     alias supgrade='sudo sboui -u'
     alias slupgrade='sudo sboui -p'
 fi
+
+if (( $+commands[vim] )); then
+    alias slackonf='sudo vim /etc/slackpkg/slackpkg.conf'
+    alias mirrors='sudo vim /etc/slackpkg/mirrors'
+    alias blacklist='sudo vim /etc/slackpkg/blacklist'
+fi
