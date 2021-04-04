@@ -32,7 +32,7 @@ Of course you need to install [sboui](https://slackbuilds.org/repository/14.2/sy
 | sync      | sudo sboui -s                       | Sync the local repository with the remote repository                |
 | supgrade  | sudo sboui -u                       | Update the slackbuilds in the local system                          |
 | slupgrade | sudo sboui -p                       | List the slackbuilds that needs to be updated in the system         |
-#### SBOUI
+#### VIM
 | Alias     | Command                             | Description                                                         |
 |-----------|-------------------------------------|---------------------------------------------------------------------|
 | slackconf | sudo vim /etc/slackpkg/slackpkg.conf| Edit the slackpkg.conf file                                         |
